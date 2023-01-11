@@ -1,3 +1,8 @@
+.App {
+  padding: 0;
+  margin: 0;
+}
+
 .NavbarContainer {
   margin: 0;
   box-sizing: border-box; 
@@ -35,15 +40,34 @@
   border: 5px black;
   background-color: aqua;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  padding: 0;
 }
 
 .PokeList {
   text-align: center;
   list-style-type: none;
-  position: relative;
-  width: 100px;
+  right: 0;
+  padding: 0;
+  width: 150px;
   background-color: rgb(84, 84, 84);
   border: 2px solid black;
   height: 400px;
+}
+
+.Menu {
+  display: flex;
+  justify-self: flex-end;
+}
+.Content {
+  border: 2px solid black;
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 1000px;
+}
+
+.pokeImg {
+  height: 300px;
+  width: auto;
 }
