@@ -1,6 +1,7 @@
 import '../App.css';
 import { useState } from 'react';
 
+
 function Navbar(props) {
     const { toggle, setToggle } = props
     const display = () => {
@@ -11,7 +12,7 @@ function Navbar(props) {
     function handleToggle (e) {
         e.preventDefault()
         console.log("Toggled")
-      }
+    }
 
     
 

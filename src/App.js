@@ -5,8 +5,8 @@ import Menu from './Components/Menu.jsx';
 
 function App() {
   const [ pokeList, setPokeList] = useState([{name: 'loading'}])
-  const [toggle, setToggle] = useState(false)
-  const [pageLoad, setPageLoad] = useState(false)
+  const [ toggle, setToggle ] = useState(false)
+  const [ pageLoad, setPageLoad ] = useState(false)
   
 
   useEffect(() => {
@@ -21,10 +21,10 @@ function App() {
     <div className="App">
       <Navbar toggle={ toggle } setToggle={ setToggle } pokeList={ pokeList }/>
       <div className="NavAndContent">
-
+        {toggle && <Menu className="Menu" pokeList={pokeList}/>}
+        Hello
 
       </div>
-      Hello
     </div>
   );
 }

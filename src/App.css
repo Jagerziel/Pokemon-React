@@ -1,11 +1,11 @@
 .NavbarContainer {
+  margin: 0;
   box-sizing: border-box; 
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: center;
   background-color: black;
-  margin: 0;
 }
 .Navbar {
   width: 100%;
@@ -28,4 +28,22 @@
   font-size: 40px;
   color: red;
   padding-right: 2px;
+}
+
+.NavAndContent {
+  margin: 0;
+  border: 5px black;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+}
+
+.PokeList {
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  width: 100px;
+  background-color: rgb(84, 84, 84);
+  border: 2px solid black;
+  height: 400px;
 }
