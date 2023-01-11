@@ -27,7 +27,6 @@ function Content(props) {
                     <li>{pokeData?.moves[1].move.name}</li>
                     <li>{pokeData?.moves[2].move.name}</li>
                 </ul>
-
             </div>
         </div>
     );  

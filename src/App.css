@@ -3,6 +3,13 @@
   margin: 0;
 }
 
+body {
+  background-image: url(./Images/thimo-pedersen-TWCnHKKhqSo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
 .NavbarContainer {
   margin: 0;
   box-sizing: border-box; 
@@ -27,33 +34,27 @@
   color: white;
   padding-right: 2px;
 }
+.Burger:hover {
+  color: blue;
+}
+
 .Burger90 {
   background-color: transparent;
   border: none;
   font-size: 40px;
-  color: red;
+  color: blue;
   padding-right: 2px;
 }
 
 .NavAndContent {
-  margin: 0;
+  margin: 2em;
   border: 5px black;
-  background-color: aqua;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
-.PokeList {
-  text-align: center;
-  list-style-type: none;
-  right: 0;
-  padding: 0;
-  width: 150px;
-  background-color: rgb(84, 84, 84);
-  border: 2px solid black;
-  height: 400px;
-}
 
 .Menu {
   display: flex;
@@ -62,12 +63,30 @@
 .Content {
   border: 2px solid black;
   display: flex;
+  align-items: center;
   position: relative;
   height: 400px;
-  width: 1000px;
+  width: 600px;
+  background-color: rgba(245, 245, 245, 0.67);
 }
 
 .pokeImg {
   height: 300px;
   width: auto;
 }
+.PokeList {
+    margin: 2em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    list-style-type: none;
+    right: 0;
+    padding: 0;
+    width: 150px;
+    background-color: rgba(84, 84, 84, 0.716);
+    border: 2px solid black;
+    height: 400px;
+  }
+ .item:hover {
+  color: blue;
+ }

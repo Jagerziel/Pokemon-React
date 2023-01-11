@@ -8,7 +8,7 @@ function Menu(props) {
         <div>
             <ul className='PokeList'>
                 {pokeList.map((pokemon , index) => ( 
-                    <li key={index} onClick={()=>{ setContentUrl(pokemon.url)}}>
+                    <li className="item" key={index} onClick={()=>{ setContentUrl(pokemon.url)}}>
                     {pokemon.name.charAt(0).toUpperCase() + pokemon.name.substring(1) }</li>
                     ))
                 }
