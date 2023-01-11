@@ -68,9 +68,11 @@ box {
   border: 2px solid black;
   display: flex;
   align-items: center;
+  justify-content: center;
+
   position: relative;
-  height: 400px;
-  width: 600px;
+  height: 75%;
+  width: 50%;
   background-color: rgba(245, 245, 245, 0.67);
 }
 
@@ -97,12 +99,11 @@ box {
 }
 
 .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .box2 {
+  justify-self: flex-end;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,12 +111,19 @@ box {
   margin: 0;
   
   background-color: rgba(255, 0, 0, 0.448);
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
 }
 
+h3 {
+  text-decoration: underline;
+  margin:0;
+}
 .movesList {
+  margin: 1em;
   list-style-type: none;
-  justify-content: center;
+  padding: 0;
+  text-align: center;
 }
