@@ -16,14 +16,15 @@ function App() {
   }, []);  
   
   return (
-    <div className="App">
-      <Navbar toggle={ toggle } setToggle={ setToggle } pokeList={ pokeList } setContentUrl={setContentUrl}/>
-      <div className="NavAndContent">
-        {/* { toggle && <Menu className="Menu" pokeList={ pokeList} setContentUrl={setContentUrl}/> } */}
-        { contentUrl && <Content contentUrl={ contentUrl } /> }
-
+    <body className='Body'>
+      <div className="App">
+        <Navbar toggle={ toggle } setToggle={ setToggle } pokeList={ pokeList } setContentUrl={setContentUrl}/>
+        <div className="NavAndContent">
+          {/* { toggle && <Menu className="Menu" pokeList={ pokeList} setContentUrl={setContentUrl}/> } */}
+          { contentUrl && <Content contentUrl={ contentUrl } /> }
+        </div>
       </div>
-    </div>
+    </body>
   );
 }
 

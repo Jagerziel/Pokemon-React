@@ -20,9 +20,9 @@ function Content(props) {
                 <img className="pokeImg" src={pokeData?.sprites?.front_default} alt="Logo" />
             </div>
             {console.log(pokeData)}
-            <div className='box'>
+            <div className='box2'>
                 <h3>Moves</h3>
-                <ul>
+                <ul className='movesList'>
                     <li>{pokeData?.moves[0].move.name}</li>
                     <li>{pokeData?.moves[1].move.name}</li>
                     <li>{pokeData?.moves[2].move.name}</li>
