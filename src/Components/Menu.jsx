@@ -1,11 +1,13 @@
+//Imports
 import '../App.css';
 import { useState } from 'react';
-
+//Build Menu Component
 function Menu(props) {
+    //Assign Variables
     const { toggle, pokeList , contentUrl , setContentUrl } = props
-    console.log(contentUrl)
     return (  
         <div>
+            {/* Create Menu Items List */}
             <ul className='PokeList'>
                 {pokeList.map((pokemon , index) => ( 
                     <li className="item" key={index} onClick={()=>{ setContentUrl(pokemon.url)}}>
@@ -16,5 +18,5 @@ function Menu(props) {
         </div> 
     );
 }
-
+//Export Component
 export default Menu
