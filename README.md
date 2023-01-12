@@ -5,7 +5,7 @@ The Pokemon project pulls from the pokemon API to display various contents inclu
 
 GitHub Link: https://github.com/Jagerziel/Pokemon-React
 
-Railway Link: `TBC`
+Netlify Link: [pokemon-react-practicedeploy.netlify.app](pokemon-react-practicedeploy.netlify.app)
 
 API Root Directory: https://pokeapi.co/api/v2/pokemon/
 
